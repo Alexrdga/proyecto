@@ -1,0 +1,144 @@
+/*inicio de css home*/
+
+/*body*/
+
+
+body{
+    background-color: rgb(197,219,134);
+}
+
+/*rutas de especificidad*/
+
+main h1{
+    font-family: cursive;
+}
+
+main h2{
+    font-family: cursive;
+}
+
+main p{
+    font-family: cursive;
+    font-size: x-large;
+}
+
+
+
+ header nav ul li a{ 
+    color: black;
+    font-size: 20px;
+    text-decoration: none; /*sirve para sacar las lineas debajo de los links*/
+    transition: .3s ease;
+    display: block;
+}
+
+header nav ul li a:hover{
+    color: #ffffff;   /*sirve para que cuando pongas el maus arriba se ponga de otro coloir*/
+    padding: 6px;   /*sirve para que cuando pongas el maus arriba se desplaze*/
+
+}
+
+header nav ul li{
+    text-align: center;
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+    text-decoration: none; /*sirve para sacar las lineas debajo de los links*/
+}
+
+/*rutas con class*/
+/*seccion*/
+
+.h1-index{
+    font-family: cursive;
+}
+
+
+
+
+.precios{
+    margin: ;
+    padding: 5px 7em;
+    
+
+}
+
+.logo{
+    width: 40px;  /*sirve para cambiar el tamaño de la imagen*/
+}
+
+.foto-de-plantas{
+    width: 100%;/*anchura de la foto*/
+    height: 100%;    /*altura de la foto*/
+}
+
+
+.contenedor-1{
+    display: flex; 
+    justify-content: center; /sirve para centrar las imagenes/
+
+}
+
+.imagenes-main{ /imagenes/
+    margin: 50px  50px 0px ;
+}
+ 
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(43,43,43);
+    padding: 80px 0;  /*sirve para hacer mas alto el footer*/
+}
+
+.container{
+    max-width: 1200px; 
+    margin: 0 auto;   /*esto es para que no se salga de los 1200px*/
+}
+
+.footer-row{
+    display: flex;  /*es para que se pongan uno al lado del otro*/
+    flex-wrap: wrap;  /*es para que cuando se minimice la ventana vaya bajando y no se pongan en linea*/
+}
+
+.footer-links{
+    width: 25%; /*sirve para definirle un tamaño*/
+    padding: 0 15px;  /*sirve para dejar espacio entre arriba y abajo y izquierda y derecha*/
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px; /*es una separacion hacia abajo de 25px*/
+    font-weight: 500; /*sirve para que no se vea tan gruesa nuestra letra*/
+    border-bottom: 2px solid rgb(197,219,134);  /*sirve para ponerle una linea debajo*/
+    padding-bottom: 10px; /*sirve para separar la linea que agregamos anteriormente de */
+    display: inline-block; /*sirve para que la linea solo ocupe el ancho de mi letra*/
+}
+
+.lista-footer{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: .3s ease; /*agrega una animacion y una transicion*/
+}
+.footer-links ul li a:hover{   /*animacion*/
+    color: #ffffff;   /*sirve para que cuando pongas el maus arriba se ponga de otro coloir*/
+    padding: 6px;   /*sirve para que cuando pongas el maus arriba se desplaze*/
+}
+
+
+
+
+
+
+
+
